@@ -1,0 +1,635 @@
+/* Module-specific styles */
+
+/* Module Header */
+.module-header {
+    background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
+    color: white;
+    padding: 120px 0 60px;
+}
+
+.module-breadcrumb {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.module-breadcrumb a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.module-breadcrumb a:hover {
+    color: white;
+}
+
+.module-breadcrumb span {
+    margin: 0 0.5rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.module-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.module-badge {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    backdrop-filter: blur(10px);
+}
+
+.module-title-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.module-description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.module-meta {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.module-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Module Navigation */
+.module-nav {
+    padding: 2rem 0;
+    background: white;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-large {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+}
+
+/* Module Content */
+.module-content {
+    padding: 4rem 0;
+    background: #f8f9fa;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+}
+
+.main-content {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.lesson-section {
+    padding: 3rem;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.lesson-section:last-child {
+    border-bottom: none;
+}
+
+.lesson-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lesson-section h2 i {
+    color: #0078d4;
+    font-size: 1.5rem;
+}
+
+.content-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #0078d4;
+}
+
+.content-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.content-card p {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.feature-list {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.feature-list i {
+    color: #0078d4;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+}
+
+/* Service Models */
+.service-models {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-model {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-model:hover {
+    transform: translateY(-3px);
+}
+
+.model-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #0078d4, #005a9e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.model-icon i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.service-model h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.service-model p {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.model-examples {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Deployment Models */
+.deployment-models {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.deployment-model {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.deployment-model h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.deployment-model h3 i {
+    color: #0078d4;
+}
+
+.deployment-model p {
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.pros-cons .pros {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.pros-cons strong {
+    color: #0078d4;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.pros-cons ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.pros-cons li {
+    margin-bottom: 0.3rem;
+    color: #555;
+}
+
+/* Advantages Grid */
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.advantage {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.advantage:hover {
+    transform: translateY(-3px);
+}
+
+.advantage i {
+    font-size: 2.5rem;
+    color: #0078d4;
+    margin-bottom: 1rem;
+}
+
+.advantage h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.advantage p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.progress-card,
+.toc-card,
+.resources-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.progress-card h3,
+.toc-card h3,
+.resources-card h3 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #e1e5e9;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0078d4, #00bcf2);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Table of Contents */
+.toc-list {
+    list-style: none;
+}
+
+.toc-list li {
+    margin-bottom: 0.5rem;
+}
+
+.toc-list a {
+    color: #666;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.toc-list a:hover {
+    color: #0078d4;
+    background: #f0f8ff;
+    padding-left: 2rem;
+}
+
+.toc-list .completed a {
+    color: #0078d4;
+}
+
+.toc-list .completed a::before {
+    content: '✓';
+    position: absolute;
+    left: 0.5rem;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Resources List */
+.resources-list {
+    list-style: none;
+}
+
+.resources-list li {
+    margin-bottom: 1rem;
+}
+
+.resources-list a {
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.resources-list a:hover {
+    color: #0078d4;
+    background: #f0f8ff;
+}
+
+.resources-list i {
+    color: #0078d4;
+    width: 16px;
+}
+
+/* Next Module CTA */
+.next-module-cta {
+    background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0078d4 0%, #005a9e 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0 60px;
+}
+
+.coming-soon-content {
+    text-align: center;
+    max-width: 600px;
+}
+
+.coming-soon .module-badge {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 auto 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.coming-soon h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.coming-soon p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.module-preview {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.module-preview h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.module-preview ul {
+    list-style: none;
+    text-align: left;
+}
+
+.module-preview li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.module-preview i {
+    color: #4CAF50;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .sidebar {
+        order: -1;
+    }
+    
+    .sidebar .progress-card,
+    .sidebar .toc-card,
+    .sidebar .resources-card {
+        display: none;
+    }
+    
+    .sidebar .progress-card {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .module-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .module-title-section h1 {
+        font-size: 2rem;
+    }
+    
+    .module-meta {
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .nav-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .lesson-section {
+        padding: 2rem 1.5rem;
+    }
+    
+    .content-card {
+        padding: 1.5rem;
+    }
+    
+    .service-models,
+    .deployment-models {
+        gap: 1rem;
+    }
+    
+    .advantages-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+    
+    .btn-large {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .module-header {
+        padding: 100px 0 40px;
+    }
+    
+    .module-title-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .module-description {
+        font-size: 1rem;
+    }
+    
+    .lesson-section h2 {
+        font-size: 1.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    
+    .advantages-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .advantage {
+        padding: 1.5rem;
+    }
+}

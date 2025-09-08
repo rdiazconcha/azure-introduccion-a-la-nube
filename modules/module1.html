@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1: Introducción a la nube - Azure Course</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="module-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fab fa-microsoft"></i>
+                    <span>Azure Course</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#modules" class="nav-link">Módulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#contact" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Module Header -->
+    <section class="module-header">
+        <div class="container">
+            <div class="module-breadcrumb">
+                <a href="../index.html">Inicio</a>
+                <span>/</span>
+                <a href="../index.html#modules">Módulos</a>
+                <span>/</span>
+                <span>Módulo 1</span>
+            </div>
+            <div class="module-info">
+                <div class="module-badge">01</div>
+                <div class="module-title-section">
+                    <h1>Introducción a la nube</h1>
+                    <p class="module-description">Conceptos fundamentales de computación en la nube, modelos de servicio y ventajas de adoptar tecnologías cloud.</p>
+                    <div class="module-meta">
+                        <span><i class="fas fa-clock"></i> 3-4 horas</span>
+                        <span><i class="fas fa-signal"></i> Principiante</span>
+                        <span><i class="fas fa-tasks"></i> 4 lecciones</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Module Navigation -->
+    <section class="module-nav">
+        <div class="container">
+            <div class="nav-buttons">
+                <a href="../index.html#modules" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Volver a módulos
+                </a>
+                <a href="module2.html" class="btn btn-primary">
+                    Siguiente módulo <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Module Content -->
+    <section class="module-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Main Content -->
+                <div class="main-content">
+                    <div class="lesson-section">
+                        <h2><i class="fas fa-cloud"></i> ¿Qué es la computación en la nube?</h2>
+                        <div class="content-card">
+                            <p>La computación en la nube es la entrega de servicios informáticos (incluyendo servidores, almacenamiento, bases de datos, redes, software, análisis e inteligencia) a través de Internet ("la nube") para ofrecer innovación más rápida, recursos flexibles y economías de escala.</p>
+                            
+                            <h3>Características principales:</h3>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check"></i> <strong>Autoservicio bajo demanda:</strong> Los usuarios pueden aprovisionar recursos automáticamente sin intervención humana</li>
+                                <li><i class="fas fa-check"></i> <strong>Acceso amplio a la red:</strong> Los servicios están disponibles a través de la red</li>
+                                <li><i class="fas fa-check"></i> <strong>Agrupación de recursos:</strong> Los recursos se agrupan para servir a múltiples consumidores</li>
+                                <li><i class="fas fa-check"></i> <strong>Elasticidad rápida:</strong> Las capacidades se pueden escalar rápidamente</li>
+                                <li><i class="fas fa-check"></i> <strong>Servicio medido:</strong> El uso de recursos se monitorea y controla</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="lesson-section">
+                        <h2><i class="fas fa-layer-group"></i> Modelos de servicio en la nube</h2>
+                        <div class="content-card">
+                            <div class="service-models">
+                                <div class="service-model">
+                                    <div class="model-icon">
+                                        <i class="fas fa-server"></i>
+                                    </div>
+                                    <h3>IaaS - Infrastructure as a Service</h3>
+                                    <p>Proporciona recursos de TI fundamentales como máquinas virtuales, redes y almacenamiento.</p>
+                                    <div class="model-examples">
+                                        <strong>Ejemplos:</strong> Azure Virtual Machines, Amazon EC2, Google Compute Engine
+                                    </div>
+                                </div>
+
+                                <div class="service-model">
+                                    <div class="model-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <h3>PaaS - Platform as a Service</h3>
+                                    <p>Plataforma completa de desarrollo que incluye sistema operativo, herramientas de desarrollo y servicios de base de datos.</p>
+                                    <div class="model-examples">
+                                        <strong>Ejemplos:</strong> Azure App Service, Google App Engine, Heroku
+                                    </div>
+                                </div>
+
+                                <div class="service-model">
+                                    <div class="model-icon">
+                                        <i class="fas fa-desktop"></i>
+                                    </div>
+                                    <h3>SaaS - Software as a Service</h3>
+                                    <p>Aplicaciones completas de software entregadas a través de Internet.</p>
+                                    <div class="model-examples">
+                                        <strong>Ejemplos:</strong> Microsoft 365, Google Workspace, Salesforce
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lesson-section">
+                        <h2><i class="fas fa-cloud-upload-alt"></i> Modelos de implementación</h2>
+                        <div class="content-card">
+                            <div class="deployment-models">
+                                <div class="deployment-model">
+                                    <h3><i class="fas fa-globe"></i> Nube pública</h3>
+                                    <p>Recursos compartidos disponibles para el público general a través de Internet.</p>
+                                    <div class="pros-cons">
+                                        <div class="pros">
+                                            <strong>Ventajas:</strong>
+                                            <ul>
+                                                <li>Menor costo inicial</li>
+                                                <li>Escalabilidad</li>
+                                                <li>Sin mantenimiento de hardware</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="deployment-model">
+                                    <h3><i class="fas fa-lock"></i> Nube privada</h3>
+                                    <p>Recursos de nube utilizados exclusivamente por una organización.</p>
+                                    <div class="pros-cons">
+                                        <div class="pros">
+                                            <strong>Ventajas:</strong>
+                                            <ul>
+                                                <li>Mayor control</li>
+                                                <li>Seguridad mejorada</li>
+                                                <li>Cumplimiento normativo</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="deployment-model">
+                                    <h3><i class="fas fa-random"></i> Nube híbrida</h3>
+                                    <p>Combinación de nubes públicas y privadas conectadas por tecnología.</p>
+                                    <div class="pros-cons">
+                                        <div class="pros">
+                                            <strong>Ventajas:</strong>
+                                            <ul>
+                                                <li>Flexibilidad</li>
+                                                <li>Optimización de costos</li>
+                                                <li>Gradual migración</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lesson-section">
+                        <h2><i class="fas fa-trophy"></i> Ventajas de la computación en la nube</h2>
+                        <div class="content-card">
+                            <div class="advantages-grid">
+                                <div class="advantage">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <h3>Reducción de costos</h3>
+                                    <p>Elimina gastos de capital de compra de hardware y software</p>
+                                </div>
+                                <div class="advantage">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <h3>Velocidad</h3>
+                                    <p>Los servicios se pueden aprovisionar en minutos</p>
+                                </div>
+                                <div class="advantage">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <h3>Escalabilidad global</h3>
+                                    <p>Capacidad de escalar elásticamente</p>
+                                </div>
+                                <div class="advantage">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h3>Productividad</h3>
+                                    <p>Elimina tareas de configuración de hardware</p>
+                                </div>
+                                <div class="advantage">
+                                    <i class="fas fa-rocket"></i>
+                                    <h3>Rendimiento</h3>
+                                    <p>Red global de centros de datos seguros</p>
+                                </div>
+                                <div class="advantage">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <h3>Confiabilidad</h3>
+                                    <p>Copia de seguridad de datos, recuperación ante desastres</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="progress-card">
+                        <h3>Progreso del módulo</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 25%"></div>
+                        </div>
+                        <span class="progress-text">1 de 4 lecciones completadas</span>
+                    </div>
+
+                    <div class="toc-card">
+                        <h3>Contenido del módulo</h3>
+                        <ul class="toc-list">
+                            <li class="completed"><a href="#cloud-computing">¿Qué es la computación en la nube?</a></li>
+                            <li><a href="#service-models">Modelos de servicio</a></li>
+                            <li><a href="#deployment-models">Modelos de implementación</a></li>
+                            <li><a href="#advantages">Ventajas de la nube</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="resources-card">
+                        <h3>Recursos adicionales</h3>
+                        <ul class="resources-list">
+                            <li><a href="#" target="_blank"><i class="fas fa-file-pdf"></i> Guía PDF del módulo</a></li>
+                            <li><a href="#" target="_blank"><i class="fas fa-video"></i> Videos complementarios</a></li>
+                            <li><a href="#" target="_blank"><i class="fas fa-link"></i> Documentación oficial</a></li>
+                            <li><a href="#" target="_blank"><i class="fas fa-question-circle"></i> FAQ del módulo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Module CTA -->
+    <section class="next-module-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para continuar?</h2>
+                <p>Ahora que entiendes los conceptos básicos de la nube, es hora de conocer Microsoft Azure.</p>
+                <a href="module2.html" class="btn btn-primary btn-large">
+                    Ir al Módulo 2: Introducción a Microsoft Azure
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Azure Course</h4>
+                    <p>Introducción completa a Microsoft Azure y la computación en la nube.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../index.html#about">Acerca del curso</a></li>
+                        <li><a href="../index.html#modules">Módulos</a></li>
+                        <li><a href="../index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Azure Course. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="module-script.js"></script>
+</body>
+</html>

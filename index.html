@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure: Introducción a la nube de Microsoft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fab fa-microsoft"></i>
+                    <span>Azure Course</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Acerca del Curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#modules" class="nav-link">Módulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Azure: Introducción a la nube de Microsoft</h1>
+                <p class="hero-subtitle">Descubre el poder de la computación en la nube con Microsoft Azure. Aprende desde conceptos fundamentales hasta la implementación práctica de aplicaciones web.</p>
+                <div class="hero-buttons">
+                    <a href="#modules" class="btn btn-primary">Comenzar Curso</a>
+                    <a href="#about" class="btn btn-secondary">Más Información</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="azure-icon">
+                    <i class="fab fa-microsoft"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number">5</span>
+                <span class="stat-label">Módulos</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Horas de contenido</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Práctico</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Acerca del Curso</h2>
+                <p>Un viaje completo hacia el dominio de Microsoft Azure</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>¿Qué aprenderás?</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Conceptos fundamentales de computación en la nube</li>
+                        <li><i class="fas fa-check"></i> Servicios principales de Microsoft Azure</li>
+                        <li><i class="fas fa-check"></i> Herramientas de administración y desarrollo</li>
+                        <li><i class="fas fa-check"></i> Componentes esenciales de la arquitectura Azure</li>
+                        <li><i class="fas fa-check"></i> Desarrollo y despliegue de aplicaciones web</li>
+                    </ul>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Certificación</h4>
+                        <p>Prepárate para las certificaciones oficiales de Microsoft Azure</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Práctica</h4>
+                        <p>Ejercicios prácticos con casos reales de implementación</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Comunidad</h4>
+                        <p>Únete a una comunidad de profesionales Azure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modules" class="modules">
+        <div class="container">
+            <div class="section-header">
+                <h2>Módulos del Curso</h2>
+                <p>Estructura del curso diseñada para un aprendizaje progresivo</p>
+            </div>
+            <div class="modules-grid">
+                <div class="module-card" data-module="1">
+                    <div class="module-number">01</div>
+                    <div class="module-content">
+                        <h3>Introducción a la nube</h3>
+                        <p>Conceptos fundamentales de computación en la nube, modelos de servicio y ventajas de adoptar tecnologías cloud.</p>
+                        <ul class="module-topics">
+                            <li>¿Qué es la computación en la nube?</li>
+                            <li>Modelos de servicio (IaaS, PaaS, SaaS)</li>
+                            <li>Modelos de implementación</li>
+                            <li>Ventajas y consideraciones</li>
+                        </ul>
+                        <a href="modules/module1.html" class="module-link">Ver módulo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="module-card" data-module="2">
+                    <div class="module-number">02</div>
+                    <div class="module-content">
+                        <h3>Introducción a Microsoft Azure</h3>
+                        <p>Conoce la plataforma de Microsoft Azure, sus servicios principales y cómo comenzar a utilizarla.</p>
+                        <ul class="module-topics">
+                            <li>¿Qué es Microsoft Azure?</li>
+                            <li>Cuenta y suscripciones Azure</li>
+                            <li>Portal de Azure</li>
+                            <li>Regiones y zonas de disponibilidad</li>
+                        </ul>
+                        <a href="modules/module2.html" class="module-link">Ver módulo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="module-card" data-module="3">
+                    <div class="module-number">03</div>
+                    <div class="module-content">
+                        <h3>Herramientas de administración y desarrollo</h3>
+                        <p>Explora las herramientas esenciales para administrar y desarrollar en Azure de manera eficiente.</p>
+                        <ul class="module-topics">
+                            <li>Azure CLI y PowerShell</li>
+                            <li>Azure Resource Manager</li>
+                            <li>Visual Studio Code y extensiones</li>
+                            <li>Azure DevOps</li>
+                        </ul>
+                        <a href="modules/module3.html" class="module-link">Ver módulo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="module-card" data-module="4">
+                    <div class="module-number">04</div>
+                    <div class="module-content">
+                        <h3>Componentes esenciales de Azure</h3>
+                        <p>Descubre los servicios fundamentales de Azure para construir soluciones robustas y escalables.</p>
+                        <ul class="module-topics">
+                            <li>Máquinas virtuales</li>
+                            <li>Redes virtuales</li>
+                            <li>Almacenamiento</li>
+                            <li>Bases de datos</li>
+                        </ul>
+                        <a href="modules/module4.html" class="module-link">Ver módulo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="module-card" data-module="5">
+                    <div class="module-number">05</div>
+                    <div class="module-content">
+                        <h3>Aplicaciones y páginas web en Azure</h3>
+                        <p>Aprende a desarrollar, desplegar y gestionar aplicaciones web modernas en Azure.</p>
+                        <ul class="module-topics">
+                            <li>Azure App Service</li>
+                            <li>Azure Functions</li>
+                            <li>Azure Static Web Apps</li>
+                            <li>CI/CD en Azure</li>
+                        </ul>
+                        <a href="modules/module5.html" class="module-link">Ver módulo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>curso@azure-introduccion.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <h4>Web</h4>
+                        <p>www.azure-introduccion.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>github.com/azure-course</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Azure Course</h4>
+                    <p>Introducción completa a Microsoft Azure y la computación en la nube.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#about">Acerca del curso</a></li>
+                        <li><a href="#modules">Módulos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Azure Course. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
